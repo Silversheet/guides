@@ -15,10 +15,6 @@ Ruby
   and assignments (`self.attribute =`).
 * Prefer nested class and module definitions over the shorthand version
   [Example][class definition example]
-* Prefer `detect` over `find`.
-* Prefer `select` over `find_all`.
-* Prefer `map` over `collect`.
-* Prefer `reduce` over `inject`.
 * Prefer double quotes for strings.
 * Prefer `&&` and `||` over `and` and `or`.
 * Prefer `!` over `not`.
