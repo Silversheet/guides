@@ -15,6 +15,8 @@ Rails
 * Use the default `render 'partial'` syntax over `render partial: 'partial'`.
 * Use new-style `validates :name, presence: true` validations, and put all
   validations for a given column together. [Example][validations].
+* Prefer `.present?` when checking for presence of object.
+* Prefer `.blank?` when checking for absence of object.
 
 [order-associations]: /style/rails/sample.rb#L2-L4
 [validations]: /style/rails/sample.rb#L6
