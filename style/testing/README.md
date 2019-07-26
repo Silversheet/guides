@@ -10,6 +10,7 @@ Testing
 * Use RSpec's [`allow` syntax] for method stubs.
 * Use `not_to` instead of `to_not` in RSpec expectations.
 * Prefer the `have_css` matcher to the `have_selector` matcher in Capybara assertions.
+* Use `before` instead of `before(:each)` (`before` defaults to `before(:each)` without an argument)
 
 [`expect` syntax]: http://myronmars.to/n/dev-blog/2012/06/rspecs-new-expectation-syntax
 [`allow` syntax]: https://github.com/rspec/rspec-mocks#method-stubs
